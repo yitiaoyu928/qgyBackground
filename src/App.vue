@@ -6,7 +6,10 @@
         <my-aside></my-aside>
       </el-aside>
       <el-main class="my-main">
-        <router-view></router-view>
+        <transition enter-active-class="animate__animated animate__fadeIn"
+        leave-active-class="animate__animated animate__fadeOut">
+          <router-view></router-view>
+        </transition>
       </el-main>
     </el-container>
     <el-footer>页脚</el-footer>
