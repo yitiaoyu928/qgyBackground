@@ -6,6 +6,7 @@
         <my-aside></my-aside>
       </el-aside>
       <el-main class="my-main">
+<!--        test-->
         <transition enter-active-class="animate__animated animate__fadeIn"
         leave-active-class="animate__animated animate__fadeOut">
           <router-view></router-view>
