@@ -5,9 +5,10 @@
       <el-aside width="200px">
         <my-aside></my-aside>
       </el-aside>
+      <!--      我这是测试-->
       <el-main class="my-main">
         <transition enter-active-class="animate__animated animate__fadeIn"
-        leave-active-class="animate__animated animate__fadeOut">
+                    leave-active-class="animate__animated animate__fadeOut">
           <router-view></router-view>
         </transition>
       </el-main>
