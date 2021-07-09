@@ -1,6 +1,6 @@
 <template>
   <div class="root">
-    <el-header>头部</el-header>
+    <el-header>头部测试</el-header>
     <el-container>
       <el-aside width="200px">
         <my-aside></my-aside>
@@ -12,7 +12,7 @@
         </transition>
       </el-main>
     </el-container>
-    <el-footer>页脚</el-footer>
+    <el-footer>页脚测试</el-footer>
   </div>
 </template>
 
